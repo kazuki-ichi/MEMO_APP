@@ -40,6 +40,7 @@ img {
   border: 0;
   vertical-align: middle;
 }
+
 .FirstView__container {
   max-width: 1140px;
   padding-left: 50px;
@@ -260,6 +261,16 @@ img {
   margin-right: 5px;
 }
 
+.Header2 {
+  width: 100%; 
+  position: absolute; 
+  padding-bottom: 5px;
+}
+
+.HeaderLogo__image--sp {
+  display: none
+}
+
 /*以下レスポンシブ*/
 
 @media screen and (max-width: 767px){
@@ -293,12 +304,12 @@ img {
 }
 
 .main-botan a:first-of-type {
-    margin-right: 0;
-        width: 100% !important;
+  margin-right: 0;
+  width: 100% !important;
 }
 
 .main-botan  a:last-of-type {
-    display: none;
+  display: none;
 }
     
  .FirstViewContent__title {
@@ -308,11 +319,11 @@ img {
   margin-right: calc(((100vw - 100%)/2)*-1);
 }
 
- .potepan-video {
+.potepan-video {
   width: 100%;
  }
  
- .FirstViewContent__title {
+.FirstViewContent__title {
   margin-bottom: 20px;
   width: 100%; 
   margin-left: auto;
@@ -335,7 +346,16 @@ img {
 .main-images img:nth-of-type(2) {
   width: 40%;
 }
+
+.HeaderLogo__image--pc {
+  display: none;
 }
+
+.HeaderLogo__image--sp {
+  display: block;
+}
+}
+
 
 
 @media screen and (max-width: 1024px){
@@ -397,10 +417,7 @@ img {
 }
 
 .Header--common {
-   position: fixed !important;  
-}}
-
- .Header2 {
-  width: 100%; 
-  position: absolute; 
+  position: fixed !important;  
 }
+}
+
