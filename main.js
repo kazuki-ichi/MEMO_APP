@@ -25,6 +25,8 @@ function edit(elem) {
     return;
   } else if (result.value.slice(-1) === "/" ){
     return;
+  } else if (result.value.slice(-1) === "." ){
+    return;
   } else {
     result.value += elem.value;
   }
